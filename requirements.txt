@@ -1,0 +1,27 @@
+# Core ML & Audio dependencies
+# For GPU acceleration (NVIDIA CUDA):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+torch>=2.0.0
+transformers>=4.30.0
+librosa>=0.10.0
+soundfile>=0.12.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Optional ensemble classifiers
+lightgbm>=4.0.0
+xgboost>=2.0.0
+
+# Audio extraction & Pipeline
+yt-dlp>=2024.0.0
+python-dotenv>=1.0.0
+huggingface_hub>=0.20.0
+kagglehub>=0.2.0
+tqdm>=4.66.0
+spotipy>=2.23.0
+
+# Optional: Resilient Spotify integration via MusicCore
+# pip install git+https://github.com/lagosproject/MusicCore.git

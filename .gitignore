@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+env/
+
+# Spotify & Hugging Face tokens / caches
+.cache
+.cache/
+.huggingface/
+.kaggle/
+
+# Credentials, cookies and sensitive files
+*cookies*.txt
+config/*cookies*.txt
+config/*.txt
+!config/.gitkeep
+
+# Data & Audio files (raw datasets and temporary downloads)
+data/
+out/
+logs/
+temp_audio*/
+*.wav
+*.mp3
+*.m4a
+*.webm
+*.flac
+*.ogg
+
+# Model artifacts (downloaded from Kaggle / Hugging Face)
+*.joblib
+*.keras
+*.h5
+*.npy
+*.npz
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
